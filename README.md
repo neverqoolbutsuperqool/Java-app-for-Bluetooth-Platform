@@ -3,11 +3,17 @@ Bluetooth communication in Java can be platform-dependent and might require spec
 
 This code snippet completes the Bluetooth discovery application. It starts an inquiry to discover nearby Bluetooth devices, displays their addresses and names, waits for 5 seconds to collect results, and then cancels the inquiry.
 
+
+**Steps to get Bluetooth application running**
+
 1.Install BlueCove:
-Download the BlueCove library for your platform from the official website: http://bluecove.org/. Follow the installation instructions provided on the website.
+Download the BlueCove library for yplatform from the official website: http://bluecove.org/. Follow the installation instructions provided on the website.
+
 2.Set Up Your IDE:
-You need to add the BlueCove library to your project's classpath. Depending on the IDE you're using, the steps might vary. Generally, you'll need to add the BlueCove JAR files to your project's build path.
+Add the BlueCove library to project's classpath. Add the BlueCove JAR files to project's build path.
+
 3.Compile and Run:
-Once you have the BlueCove library set up and your IDE is configured correctly, you can compile and run the Bluetooth discovery application.
+Compile and run the Bluetooth discovery application.
+
 4.Testing:
 Run the application and check the output. It should start the Bluetooth discovery process and display the discovered devices' addresses and friendly names.
